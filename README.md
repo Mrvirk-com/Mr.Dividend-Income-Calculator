@@ -5,13 +5,14 @@ Dividend Income Calculator helps calculate the amount of dividend you will recie
 https://mrvirk.com/dividend-calculator/
 
 # Inputs
-- Full Price
-- Yield%
-- Quantity
+- Dividend per Share
+- Average Cost per Share
+- Number of Shares
 - Frequency (quarterly/monthly)
 
 # Outputs
-- Cost
+- Yield%
+- Total Cost
 - Yearly Dividend
 - Quarterly/Monthly Dividend
 
