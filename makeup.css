@@ -1,0 +1,176 @@
+body {
+  font-size: 20px;
+  font-family: arial;
+  color: black;
+}
+
+span {
+  color: #00cc00;
+}
+
+a {
+  color: #00cc00;
+  font-weight: bold;
+}
+
+input {
+  font-size: 25px;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+input[type=number], select {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.logo {
+  width: 30%;
+  height: 10%;
+}
+
+div {
+  padding: 5px 10px;
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+div.boxes {
+  border: 0.5px solid black;
+  
+}
+
+.result {
+  color: #00cc00;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.secondary_result {
+  color: purple;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.result-negative {
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p.hint {
+  font-size: 15px;
+}
+
+.output {
+  font-size: 15px;
+}
+
+.formula {
+  font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #e5e5e5;
+  text-align: center;
+  padding: 10px;
+  margin-top: 7px;
+}
+
+div.secondary_boxes {
+  border: 0.5px solid black;
+  height: 265px;
+}
+
+.calculator_box {
+  float: left;
+  width: 50%;
+  margin-top: 0px;
+}
+
+.results_box {
+  float: left;
+  width: 50%;
+  margin-top: 0px;
+}
+
+@media only screen and (max-width:620px) {
+
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+
+  .calculator_box, .results_box {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+  }
+
+  .logo {
+    width: 10%;
+    height: 2%;
+  }
+
+  .menu a {
+    padding: 4px;
+    margin-top: 3.5px;
+    display: inline;
+    width: 100%;
+  }
+}
