@@ -12,10 +12,10 @@ function dividendCalculator() {
   let no_of_shares = form.elements.no_of_shares.value;
 
   if (cost_per_share == null || cost_per_share == "") {
-    cost_per_share = 100;
+    cost_per_share = 0;
   }
   if (dividend_per_share == null || dividend_per_share == "") {
-    dividend_per_share = 25;
+    dividend_per_share = 0;
   }
   let yield = (dividend_per_share / cost_per_share) * 100;
   form.elements.yield.value = yield.toFixed(3) + "%";
