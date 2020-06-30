@@ -5,11 +5,11 @@ body {
 }
 
 span {
-  color: #00cc00;
+  color: purple;
 }
 
 a {
-  color: #00cc00;
+  color: purple;
   font-weight: bold;
 }
 
@@ -69,11 +69,11 @@ div {
 
 div.boxes {
   border: 0.5px solid black;
-
+  background-color: #e5e5e5;
 }
 
 .result {
-  color: #00cc00;
+  color: purple;
   font-weight: bold;
   font-size: 25px;
 }
@@ -142,7 +142,8 @@ p.hint {
 
 div.secondary_boxes {
   border: 0.5px solid black;
-  height: 690px;
+  height: 440px;
+  background-color: #e5e5e5;
 }
 
 .calculator_box {
