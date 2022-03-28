@@ -14,7 +14,7 @@ https://mrvirk.com/dividend-calculator/
 - Yield%
 - Total Cost
 - Yearly Dividend
-- Quarterly/Monthly Dividend
+- Quarterly/Monthly/Yearly Dividend
 
 # Collaboration and Contributions
 Feel free to make contributions by making a pull request.
