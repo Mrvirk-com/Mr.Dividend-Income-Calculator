@@ -11,7 +11,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ftp://ftp.mrvirk.com:21/public_html/dividend-calculator/
+        ftp-server: ftp://p3plzcpnl458515.prod.phx3.secureserver.net:21/public_html/dividend-calculator/
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         git-ftp-args: --insecure
