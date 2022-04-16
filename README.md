@@ -3,6 +3,8 @@ Dividend Income Calculator helps calculate the amount of dividend you will recie
 
 # Website
 https://mrvirk.com/dividend-calculator/
+
+# Demo
 <img width="1037" alt="Screenshot 2022-04-16 at 02 07 28" src="https://user-images.githubusercontent.com/5924811/163655930-78c556be-e7a8-4ac0-b1de-83f72b32d4dd.png">
 
 
